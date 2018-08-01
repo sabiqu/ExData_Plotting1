@@ -1,6 +1,6 @@
 ##Load Data File
 
-data_load <- read.csv("./household_power_consumption.txt", header=TRUE, sep=";", 
+data_load <- read.csv("C:\\Users\\skunnummal\\Desktop\\training\\household_power_consumption.txt", header=TRUE, sep=";", 
                       stringsAsFactors=FALSE, na.strings = "?", dec=".")
 
 ##Format Date + Time
